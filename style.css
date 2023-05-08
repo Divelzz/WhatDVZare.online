@@ -1,0 +1,643 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap";
+html[data-v-542938f3],
+body[data-v-542938f3],
+div[data-v-542938f3],
+span[data-v-542938f3],
+applet[data-v-542938f3],
+object[data-v-542938f3],
+iframe[data-v-542938f3],
+h1[data-v-542938f3],
+h2[data-v-542938f3],
+h3[data-v-542938f3],
+h4[data-v-542938f3],
+h5[data-v-542938f3],
+h6[data-v-542938f3],
+p[data-v-542938f3],
+blockquote[data-v-542938f3],
+pre[data-v-542938f3],
+a[data-v-542938f3],
+abbr[data-v-542938f3],
+acronym[data-v-542938f3],
+address[data-v-542938f3],
+big[data-v-542938f3],
+cite[data-v-542938f3],
+code[data-v-542938f3],
+del[data-v-542938f3],
+dfn[data-v-542938f3],
+em[data-v-542938f3],
+img[data-v-542938f3],
+ins[data-v-542938f3],
+kbd[data-v-542938f3],
+q[data-v-542938f3],
+s[data-v-542938f3],
+samp[data-v-542938f3],
+small[data-v-542938f3],
+strike[data-v-542938f3],
+strong[data-v-542938f3],
+sub[data-v-542938f3],
+sup[data-v-542938f3],
+tt[data-v-542938f3],
+var[data-v-542938f3],
+b[data-v-542938f3],
+u[data-v-542938f3],
+i[data-v-542938f3],
+center[data-v-542938f3],
+dl[data-v-542938f3],
+dt[data-v-542938f3],
+dd[data-v-542938f3],
+ol[data-v-542938f3],
+ul[data-v-542938f3],
+li[data-v-542938f3],
+fieldset[data-v-542938f3],
+form[data-v-542938f3],
+label[data-v-542938f3],
+legend[data-v-542938f3],
+table[data-v-542938f3],
+caption[data-v-542938f3],
+tbody[data-v-542938f3],
+tfoot[data-v-542938f3],
+thead[data-v-542938f3],
+tr[data-v-542938f3],
+th[data-v-542938f3],
+td[data-v-542938f3],
+article[data-v-542938f3],
+aside[data-v-542938f3],
+canvas[data-v-542938f3],
+details[data-v-542938f3],
+embed[data-v-542938f3],
+figure[data-v-542938f3],
+figcaption[data-v-542938f3],
+footer[data-v-542938f3],
+header[data-v-542938f3],
+hgroup[data-v-542938f3],
+menu[data-v-542938f3],
+nav[data-v-542938f3],
+output[data-v-542938f3],
+ruby[data-v-542938f3],
+section[data-v-542938f3],
+summary[data-v-542938f3],
+time[data-v-542938f3],
+mark[data-v-542938f3],
+audio[data-v-542938f3],
+video[data-v-542938f3] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article[data-v-542938f3],
+aside[data-v-542938f3],
+details[data-v-542938f3],
+figcaption[data-v-542938f3],
+figure[data-v-542938f3],
+footer[data-v-542938f3],
+header[data-v-542938f3],
+hgroup[data-v-542938f3],
+menu[data-v-542938f3],
+nav[data-v-542938f3],
+section[data-v-542938f3] {
+    display: block
+}
+
+body[data-v-542938f3] {
+    line-height: 1
+}
+
+ol[data-v-542938f3],
+ul[data-v-542938f3] {
+    list-style: none
+}
+
+blockquote[data-v-542938f3],
+q[data-v-542938f3] {
+    quotes: none
+}
+
+blockquote[data-v-542938f3]:before,
+blockquote[data-v-542938f3]:after,
+q[data-v-542938f3]:before,
+q[data-v-542938f3]:after {
+    content: "";
+    content: none
+}
+
+table[data-v-542938f3] {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.exploit[data-v-542938f3] {
+    background: #212425;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative
+}
+
+.exploit .head[data-v-542938f3] {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem
+}
+
+.exploit .head h1[data-v-542938f3] {
+    margin: 0;
+    font-size: 2rem
+}
+
+.exploit .head h3[data-v-542938f3] {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #aaa;
+    min-width: 0;
+    height: max-content;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 4rem
+}
+
+.exploit p[data-v-542938f3] {
+    margin-top: 1.5rem
+}
+
+.exploit.updated[data-v-542938f3] {
+    border-left: 8px solid #ffffff
+}
+
+.exploit.not-updated[data-v-542938f3] {
+    border-left: 8px solid #000000
+}
+
+.exploit.issues[data-v-542938f3],
+.exploit.api-down[data-v-542938f3],
+.exploit.in-testing[data-v-542938f3] {
+    border-left: 8px solid #ffc702
+}
+
+.exploit .indicators[data-v-542938f3] {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    display: flex;
+    gap: .8rem
+}
+
+.exploit .indicators .unc a[data-v-542938f3] {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    width: max-content;
+    color: #ffffff
+}
+
+.exploit .indicators .unc a span[data-v-542938f3] {
+    background: #000000;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center
+}
+
+.exploit .indicators .unc a[data-v-542938f3] :first-child {
+    padding: 0 12px 0 5px;
+    flex-grow: 1
+}
+
+.exploit .indicators .unc a[data-v-542938f3] :last-child {
+    border-radius: 50%;
+    box-shadow: -6px 0 0 1px #212425;
+    width: 1.8rem;
+    height: 1.8rem
+}
+
+.exploit .indicators .multiExploit[data-v-542938f3] {
+    background: #000000;
+    border-radius: 5px;
+    padding: 5px 8px
+}
+
+.exploit .indicators .multiExploit p[data-v-542938f3] {
+    margin: 0
+}
+
+.exploit .indicators .status[data-v-542938f3] {
+    border-radius: 5px;
+    padding: 5px 8px
+}
+
+.exploit .indicators .status.updated[data-v-542938f3] {
+    background: #000000
+}
+
+.exploit .indicators .status.not-updated[data-v-542938f3] {
+    background: #000000
+}
+
+.exploit .indicators .status.issues[data-v-542938f3],
+.exploit .indicators .status.api-down[data-v-542938f3],
+.exploit .indicators .status.in-testing[data-v-542938f3] {
+    background: #000000
+}
+
+.exploit .buttons[data-v-542938f3] {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 1rem;
+    transition: .3s ease-in-out;
+    max-height: 0
+}
+
+.exploit .buttons.active[data-v-542938f3] {
+    max-height: 20rem
+}
+
+.exploit .buttons a[data-v-542938f3] {
+    display: block;
+    text-decoration: none;
+    background: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    font-size: 1.4rem
+}
+
+.exploit .buttons a.v3rm[data-v-542938f3] {
+    background: #000000
+}
+
+.exploit .buttons a.purchase[data-v-542938f3],
+.exploit .buttons a.download[data-v-542938f3] {
+    background: #13b62d
+}
+
+.exploit .buttons a.discord[data-v-542938f3] {
+    background: #5662f6
+}
+
+.exploit .buttons a.website[data-v-542938f3] {
+    background: #999;
+    color: #fff
+}
+
+@media screen and (max-width: 800px) {
+    .exploit[data-v-542938f3] {
+        padding-top: 2.5rem
+    }
+    .exploit .head[data-v-542938f3] {
+        display: block
+    }
+    .exploit .head h1[data-v-542938f3] {
+        display: inline-block
+    }
+    .exploit .head h3[data-v-542938f3] {
+        display: inline-block;
+        margin-left: .5rem
+    }
+    .exploit .buttons[data-v-542938f3] {
+        flex-direction: column;
+        margin-top: 10px
+    }
+    .exploit .buttons a[data-v-542938f3] {
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 2px
+    }
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+html {
+    font-size: 13px
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background: #0b0909;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    min-height: 100vh;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    box-sizing: border-box
+}
+
+#app header h1 {
+    font-size: 40px;
+    margin-top: 2rem
+}
+
+#app header h1 span.red {
+    color: #ed3a47
+}
+
+#app header h1 span.green {
+    color: #3bea57
+}
+
+#app main {
+    padding: 4rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 60%;
+    margin: 2rem auto
+}
+
+#app main .reloadingIndicator {
+    background: #0e1011;
+    width: max-content;
+    position: fixed;
+    top: 2rem;
+    left: 50%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 400;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: .25s ease-in-out
+}
+
+#app main .reloadingIndicator.show {
+    opacity: 1;
+    animation: none
+}
+
+#app main .reloadingIndicator>.loader {
+    width: 32px;
+    height: 32px;
+    border: 4px solid #fff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite
+}
+
+#app main>h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin: .5rem 0
+}
+
+#app main>.discord {
+    background: #5662f6;
+    display: flex;
+    gap: 1rem;
+    padding: .8rem;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: #fff
+}
+
+#app main>.discord img {
+    height: 2rem
+}
+
+#app main>.status {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: #212425;
+    border-radius: 5px;
+    padding: .8rem;
+    gap: 1rem;
+    text-align: left
+}
+
+#app main>.status :nth-child(odd) {
+    font-size: 1.5rem
+}
+
+#app main>.status :nth-child(odd).green {
+    color: #000000
+}
+
+#app main>.status :nth-child(odd).orange {
+    color: #000000
+}
+
+#app main>.status :nth-child(odd).red {
+    color: #000000
+}
+
+#app main>.status :nth-child(even) {
+    color: #aaa
+}
+
+#app>.loader {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#app>.loader>.loader {
+    width: 64px;
+    height: 64px;
+    border: 7px solid #fff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite
+}
+
+#app>.loader p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #aaa
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+#app footer {
+    background: #212425;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box
+}
+
+#app footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+    transition: .25s ease-in-out
+}
+
+#app footer a:hover {
+    color: #aaa
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 10px
+    }
+    html #app {
+        padding: 2rem .5rem
+    }
+    html #app header h1 {
+        font-size: 2.2rem
+    }
+    html #app header img {
+        width: 40%
+    }
+    html #app main {
+        width: 95%;
+        gap: 10px;
+        display: grid
+    }
+}
