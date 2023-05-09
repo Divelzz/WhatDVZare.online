@@ -3302,7 +3302,7 @@ const xl = {
   }, null, -1),
   Tl = [El],
   Al = R("a", {
-    href: "https://discord.gg/GjSUbXMwkm",
+    href: "https://discord.gg/w3aVPSuVZP",
     class: "discord",
     target: "_blank"
   }, [R("img", {
